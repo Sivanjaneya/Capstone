@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Diet House</string>
+    <string name="facebook_app_id">171322769987852</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Weight_Loss_Types">Weight Loss</string>
+    <string-array name="Weight_Loss_Types">
+        <item>-Select One-</item>
+        <item>Light</item>
+        <item>Actively</item>
+        <item>Very Actively</item>
+        <item>Others</item>
+    </string-array>
+    <string name="weekely_Goal_weight">Weekely Goal Weight</string>
+    <string name="diet_house">Diet House</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="i_accept_terms_and_conditions">I Accept Terms and Conditions</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password_Create">Password</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="email_id">Email Id</string>
+    <string name="username_register">UserName</string>
+    <string-array name="Weekely_Goal_Weight">
+        <item>-Select One-</item>
+        <item>0.2kg</item>
+        <item>1.2kg</item>
+        <item>2.6kg</item>
+        <item>4.0kg</item>
+    </string-array>
+</resources>

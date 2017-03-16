@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chegu.diethouse.Results_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/calorie_results"
+        android:text="1700"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/label_bmr_count"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calorie Count = "
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/label_bmr_count"
+        android:layout_alignBaseline="@+id/calorie_results"
+        android:layout_alignBottom="@+id/calorie_results"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="28dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="480dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="20sp"
+            android:id="@+id/back_button6"
+            android:layout_marginStart="15dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_view"
+        android:stretchMode="columnWidth"
+        android:layout_marginTop="30dp"
+
+        >
+
+    </ListView>
+
+
+</RelativeLayout>

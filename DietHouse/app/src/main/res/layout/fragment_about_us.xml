@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chegu.diethouse.AboutUsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="This is Satish from India.
+                  Medical studies have proven that the best way to
+  lose weight and keep it off is to simply keep track of the food we eat. Gimmicky machines and fat diets don't work, so we designed a free mobile app on android platform that makes calorie counting and diet control easier using a target(weight loss) oriented approach." />
+
+</FrameLayout>

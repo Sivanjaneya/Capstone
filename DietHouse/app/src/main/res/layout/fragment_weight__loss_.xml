@@ -1,0 +1,123 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chegu.diethouse.Weight_Loss_Fragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_marginTop="40dp"
+        android:paddingTop="10dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10sp"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:id="@+id/rg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/image2"
+                android:layout_marginTop="50dp"
+                android:layout_alignStart="@+id/image2"
+                android:layout_below="@+id/textView5">
+
+                <RadioButton
+                    android:id="@+id/not_active"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not Very Active"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="5dp"
+                    android:hint="Spend most of the day sitting(e.g bus driver,receptionist,programmer)"/>
+
+                <RadioButton
+                    android:id="@+id/light_active"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Little Active" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="5dp"
+                    android:hint="Spend a good part of the day on your feet(e.g teacher, salesman)"/>
+
+                <RadioButton
+                    android:id="@+id/active"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+
+                    android:text="Active" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="5dp"
+                    android:hint="Spend a good part of the day doing some physical activity(e.g mailman, flight attendant)"/>
+
+                <RadioButton
+                    android:id="@+id/very_active"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Extremely Active" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="5dp"
+                    android:hint="Spend most of the day doing heavy physical activity(e.g Construction worker, mover, waiter)"/>
+
+            </RadioGroup>
+
+
+
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/emi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:layout_marginStart="10dp"
+        android:text="How Active are you?"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="10dp" />
+
+
+</FrameLayout>
