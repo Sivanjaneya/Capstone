@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 /**
  * Created by chegu on 15/10/16.
+ * Test comment
  */
 public class Home_page_Model implements Serializable {
     private String title,message;
